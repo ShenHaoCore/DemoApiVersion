@@ -5,13 +5,13 @@ namespace ApiVersion1.Controllers
     /// <summary>
     /// 测试
     /// </summary>
+    [ApiExplorerSettings(GroupName = nameof(FrameworkEnum.ApiVersion.V2))]
     public class Tast2Controller : BaseApiController
     {
         /// <summary>
         /// GET
         /// </summary>
         /// <returns></returns>
-        [ApiExplorerSettings(GroupName = nameof(FrameworkEnum.ApiVersion.V2))]
         [HttpGet]
         public ActionResult Get()
         {
@@ -22,7 +22,6 @@ namespace ApiVersion1.Controllers
         /// POST
         /// </summary>
         /// <returns></returns>
-        [ApiExplorerSettings(GroupName = nameof(FrameworkEnum.ApiVersion.V2))]
         [HttpPost]
         public ActionResult Post()
         {
