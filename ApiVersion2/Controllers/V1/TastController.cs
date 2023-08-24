@@ -16,7 +16,7 @@ namespace ApiVersion2.Controllers.V1
         [HttpGet]
         public ActionResult Get()
         {
-            return Content("测试");
+            return Content("测试1");
         }
 
         /// <summary>
@@ -26,7 +26,7 @@ namespace ApiVersion2.Controllers.V1
         [HttpPost]
         public ActionResult Post()
         {
-            return Content("测试");
+            return Content("测试1");
         }
     }
 }
